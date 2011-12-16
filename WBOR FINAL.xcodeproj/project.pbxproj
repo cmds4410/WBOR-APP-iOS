@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3EAA4FF149BB71600E215C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EAA4FE149BB71600E215C4 /* UIKit.framework */; };
+		B3EAA501149BB71600E215C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EAA500149BB71600E215C4 /* Foundation.framework */; };
+		B3EAA503149BB71600E215C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EAA502149BB71600E215C4 /* CoreGraphics.framework */; };
+		B3EAA509149BB71600E215C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3EAA507149BB71600E215C4 /* InfoPlist.strings */; };
+		B3EAA50B149BB71600E215C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EAA50A149BB71600E215C4 /* main.m */; };
+		B3EAA50F149BB71600E215C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EAA50E149BB71600E215C4 /* AppDelegate.m */; };
+		B3EAA512149BB71600E215C4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3EAA510149BB71600E215C4 /* MainStoryboard_iPhone.storyboard */; };
+		B3EAA515149BB71600E215C4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3EAA513149BB71600E215C4 /* MainStoryboard_iPad.storyboard */; };
+		B3EAA518149BB71600E215C4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EAA517149BB71600E215C4 /* FirstViewController.m */; };
+		B3EAA51A149BB71600E215C4 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B3EAA519149BB71600E215C4 /* first.png */; };
+		B3EAA51C149BB71600E215C4 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3EAA51B149BB71600E215C4 /* first@2x.png */; };
+		B3EAA51F149BB71600E215C4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EAA51E149BB71600E215C4 /* SecondViewController.m */; };
+		B3EAA521149BB71600E215C4 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B3EAA520149BB71600E215C4 /* second.png */; };
+		B3EAA523149BB71600E215C4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3EAA522149BB71600E215C4 /* second@2x.png */; };
+		B3EAA52B149BB71600E215C4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EAA52A149BB71600E215C4 /* SenTestingKit.framework */; };
+		B3EAA52C149BB71600E215C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EAA4FE149BB71600E215C4 /* UIKit.framework */; };
+		B3EAA52D149BB71600E215C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EAA500149BB71600E215C4 /* Foundation.framework */; };
+		B3EAA535149BB71600E215C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3EAA533149BB71600E215C4 /* InfoPlist.strings */; };
+		B3EAA538149BB71600E215C4 /* WBOR_FINALTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EAA537149BB71600E215C4 /* WBOR_FINALTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3EAA52E149BB71600E215C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3EAA4F1149BB71500E215C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3EAA4F9149BB71600E215C4;
+			remoteInfo = "WBOR FINAL";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3EAA4FA149BB71600E215C4 /* WBOR FINAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WBOR FINAL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EAA4FE149BB71600E215C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3EAA500149BB71600E215C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3EAA502149BB71600E215C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3EAA506149BB71600E215C4 /* WBOR FINAL-Info.plist */ = {isa = PBXFileReference; path = "WBOR FINAL-Info.plist"; sourceTree = "<group>"; };
+		B3EAA508149BB71600E215C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3EAA50A149BB71600E215C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3EAA50C149BB71600E215C4 /* WBOR FINAL-Prefix.pch */ = {isa = PBXFileReference; path = "WBOR FINAL-Prefix.pch"; sourceTree = "<group>"; };
+		B3EAA50D149BB71600E215C4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3EAA50E149BB71600E215C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3EAA511149BB71600E215C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B3EAA514149BB71600E215C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B3EAA516149BB71600E215C4 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		B3EAA517149BB71600E215C4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B3EAA519149BB71600E215C4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B3EAA51B149BB71600E215C4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B3EAA51D149BB71600E215C4 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		B3EAA51E149BB71600E215C4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B3EAA520149BB71600E215C4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B3EAA522149BB71600E215C4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B3EAA529149BB71600E215C4 /* WBOR FINALTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WBOR FINALTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EAA52A149BB71600E215C4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B3EAA532149BB71600E215C4 /* WBOR FINALTests-Info.plist */ = {isa = PBXFileReference; path = "WBOR FINALTests-Info.plist"; sourceTree = "<group>"; };
+		B3EAA534149BB71600E215C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3EAA536149BB71600E215C4 /* WBOR_FINALTests.h */ = {isa = PBXFileReference; path = WBOR_FINALTests.h; sourceTree = "<group>"; };
+		B3EAA537149BB71600E215C4 /* WBOR_FINALTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBOR_FINALTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3EAA4F7149BB71600E215C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EAA4FF149BB71600E215C4 /* UIKit.framework in Frameworks */,
+				B3EAA501149BB71600E215C4 /* Foundation.framework in Frameworks */,
+				B3EAA503149BB71600E215C4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EAA525149BB71600E215C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EAA52B149BB71600E215C4 /* SenTestingKit.framework in Frameworks */,
+				B3EAA52C149BB71600E215C4 /* UIKit.framework in Frameworks */,
+				B3EAA52D149BB71600E215C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3EAA4EF149BB71500E215C4 = {
+			isa = PBXGroup;
+			children = (
+				B3EAA504149BB71600E215C4 /* WBOR FINAL */,
+				B3EAA530149BB71600E215C4 /* WBOR FINALTests */,
+				B3EAA4FD149BB71600E215C4 /* Frameworks */,
+				B3EAA4FB149BB71600E215C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3EAA4FB149BB71600E215C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3EAA4FA149BB71600E215C4 /* WBOR FINAL.app */,
+				B3EAA529149BB71600E215C4 /* WBOR FINALTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3EAA4FD149BB71600E215C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3EAA4FE149BB71600E215C4 /* UIKit.framework */,
+				B3EAA500149BB71600E215C4 /* Foundation.framework */,
+				B3EAA502149BB71600E215C4 /* CoreGraphics.framework */,
+				B3EAA52A149BB71600E215C4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3EAA504149BB71600E215C4 /* WBOR FINAL */ = {
+			isa = PBXGroup;
+			children = (
+				B3EAA50D149BB71600E215C4 /* AppDelegate.h */,
+				B3EAA50E149BB71600E215C4 /* AppDelegate.m */,
+				B3EAA510149BB71600E215C4 /* MainStoryboard_iPhone.storyboard */,
+				B3EAA513149BB71600E215C4 /* MainStoryboard_iPad.storyboard */,
+				B3EAA516149BB71600E215C4 /* FirstViewController.h */,
+				B3EAA517149BB71600E215C4 /* FirstViewController.m */,
+				B3EAA519149BB71600E215C4 /* first.png */,
+				B3EAA51B149BB71600E215C4 /* first@2x.png */,
+				B3EAA51D149BB71600E215C4 /* SecondViewController.h */,
+				B3EAA51E149BB71600E215C4 /* SecondViewController.m */,
+				B3EAA520149BB71600E215C4 /* second.png */,
+				B3EAA522149BB71600E215C4 /* second@2x.png */,
+				B3EAA505149BB71600E215C4 /* Supporting Files */,
+			);
+			path = "WBOR FINAL";
+			sourceTree = "<group>";
+		};
+		B3EAA505149BB71600E215C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3EAA506149BB71600E215C4 /* WBOR FINAL-Info.plist */,
+				B3EAA507149BB71600E215C4 /* InfoPlist.strings */,
+				B3EAA50A149BB71600E215C4 /* main.m */,
+				B3EAA50C149BB71600E215C4 /* WBOR FINAL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3EAA530149BB71600E215C4 /* WBOR FINALTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3EAA536149BB71600E215C4 /* WBOR_FINALTests.h */,
+				B3EAA537149BB71600E215C4 /* WBOR_FINALTests.m */,
+				B3EAA531149BB71600E215C4 /* Supporting Files */,
+			);
+			path = "WBOR FINALTests";
+			sourceTree = "<group>";
+		};
+		B3EAA531149BB71600E215C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3EAA532149BB71600E215C4 /* WBOR FINALTests-Info.plist */,
+				B3EAA533149BB71600E215C4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3EAA4F9149BB71600E215C4 /* WBOR FINAL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EAA53B149BB71600E215C4 /* Build configuration list for PBXNativeTarget "WBOR FINAL" */;
+			buildPhases = (
+				B3EAA4F6149BB71600E215C4 /* Sources */,
+				B3EAA4F7149BB71600E215C4 /* Frameworks */,
+				B3EAA4F8149BB71600E215C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WBOR FINAL";
+			productName = "WBOR FINAL";
+			productReference = B3EAA4FA149BB71600E215C4 /* WBOR FINAL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3EAA528149BB71600E215C4 /* WBOR FINALTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EAA53E149BB71600E215C4 /* Build configuration list for PBXNativeTarget "WBOR FINALTests" */;
+			buildPhases = (
+				B3EAA524149BB71600E215C4 /* Sources */,
+				B3EAA525149BB71600E215C4 /* Frameworks */,
+				B3EAA526149BB71600E215C4 /* Resources */,
+				B3EAA527149BB71600E215C4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3EAA52F149BB71600E215C4 /* PBXTargetDependency */,
+			);
+			name = "WBOR FINALTests";
+			productName = "WBOR FINALTests";
+			productReference = B3EAA529149BB71600E215C4 /* WBOR FINALTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3EAA4F1149BB71500E215C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B3EAA4F4149BB71500E215C4 /* Build configuration list for PBXProject "WBOR FINAL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3EAA4EF149BB71500E215C4;
+			productRefGroup = B3EAA4FB149BB71600E215C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3EAA4F9149BB71600E215C4 /* WBOR FINAL */,
+				B3EAA528149BB71600E215C4 /* WBOR FINALTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3EAA4F8149BB71600E215C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EAA509149BB71600E215C4 /* InfoPlist.strings in Resources */,
+				B3EAA512149BB71600E215C4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B3EAA515149BB71600E215C4 /* MainStoryboard_iPad.storyboard in Resources */,
+				B3EAA51A149BB71600E215C4 /* first.png in Resources */,
+				B3EAA51C149BB71600E215C4 /* first@2x.png in Resources */,
+				B3EAA521149BB71600E215C4 /* second.png in Resources */,
+				B3EAA523149BB71600E215C4 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EAA526149BB71600E215C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EAA535149BB71600E215C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3EAA527149BB71600E215C4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3EAA4F6149BB71600E215C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EAA50B149BB71600E215C4 /* main.m in Sources */,
+				B3EAA50F149BB71600E215C4 /* AppDelegate.m in Sources */,
+				B3EAA518149BB71600E215C4 /* FirstViewController.m in Sources */,
+				B3EAA51F149BB71600E215C4 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EAA524149BB71600E215C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EAA538149BB71600E215C4 /* WBOR_FINALTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3EAA52F149BB71600E215C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3EAA4F9149BB71600E215C4 /* WBOR FINAL */;
+			targetProxy = B3EAA52E149BB71600E215C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3EAA507149BB71600E215C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EAA508149BB71600E215C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3EAA510149BB71600E215C4 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EAA511149BB71600E215C4 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B3EAA513149BB71600E215C4 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EAA514149BB71600E215C4 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B3EAA533149BB71600E215C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3EAA534149BB71600E215C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3EAA539149BB71600E215C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3EAA53A149BB71600E215C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3EAA53C149BB71600E215C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WBOR FINAL/WBOR FINAL-Prefix.pch";
+				INFOPLIST_FILE = "WBOR FINAL/WBOR FINAL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3EAA53D149BB71600E215C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WBOR FINAL/WBOR FINAL-Prefix.pch";
+				INFOPLIST_FILE = "WBOR FINAL/WBOR FINAL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3EAA53F149BB71600E215C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WBOR FINAL.app/WBOR FINAL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WBOR FINAL/WBOR FINAL-Prefix.pch";
+				INFOPLIST_FILE = "WBOR FINALTests/WBOR FINALTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B3EAA540149BB71600E215C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WBOR FINAL.app/WBOR FINAL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WBOR FINAL/WBOR FINAL-Prefix.pch";
+				INFOPLIST_FILE = "WBOR FINALTests/WBOR FINALTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3EAA4F4149BB71500E215C4 /* Build configuration list for PBXProject "WBOR FINAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EAA539149BB71600E215C4 /* Debug */,
+				B3EAA53A149BB71600E215C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3EAA53B149BB71600E215C4 /* Build configuration list for PBXNativeTarget "WBOR FINAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EAA53C149BB71600E215C4 /* Debug */,
+				B3EAA53D149BB71600E215C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3EAA53E149BB71600E215C4 /* Build configuration list for PBXNativeTarget "WBOR FINALTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EAA53F149BB71600E215C4 /* Debug */,
+				B3EAA540149BB71600E215C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3EAA4F1149BB71500E215C4 /* Project object */;
+}
