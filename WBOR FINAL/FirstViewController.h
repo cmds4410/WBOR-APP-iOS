@@ -7,7 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StreamModel.h"
+#import <MediaPlayer/MediaPlayer.h>
+#import <CFNetwork/CFNetwork.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController{
+    
+    IBOutlet UIButton *play;
+    IBOutlet UIButton *stop;
+    StreamModel *streamer;
+    NSString *m3uPath;
+    NSURL *wbor;
+    
+}
+
+@property (retain, nonatomic) StreamModel *streamer;
+@property (retain) NSString *m3uPath;
+@property (retain) NSURL *wbor;
+
+- (IBAction)togglePlay:(UIButton *)sender;
 
 @end

@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PlayList.h"
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController{
+    
+    IBOutlet UILabel *current;
+    IBOutlet UILabel *currentArtist;
+    IBOutlet UILabel *by;
+    IBOutlet UIButton *getCurrent;
+    
+}
+
+- (IBAction)setLabel;
 
 @end

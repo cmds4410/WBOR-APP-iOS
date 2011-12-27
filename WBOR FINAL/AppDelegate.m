@@ -15,6 +15,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UIDevice *thisDevice = [UIDevice currentDevice];
+    
+    if([thisDevice respondsToSelector:@selector(isMultitaskingSupported)]
+       && thisDevice.multitaskingSupported)
+    {
+        UIBackgroundTaskIdentifier backgroundTask = [application beginBackgroundTaskWithExpirationHandler:^{
+            [application endBackgroundTask:backgroundTask];
+        }];
+    }
     return YES;
 }
 							

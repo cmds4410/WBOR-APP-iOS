@@ -21,7 +21,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    //[getCurrent setBackgroundColor:[UIColor blueColor]];
+    [by setHidden:YES];
+	
+}
+
+- (IBAction)setLabel{
+    PlayList *playList = [[PlayList alloc] init];
+    [playList getCurrent];
+    [current setText:playList.curSong];
+    [currentArtist setText:playList.curArtist];
+    [by setHidden:NO];
 }
 
 - (void)viewDidUnload

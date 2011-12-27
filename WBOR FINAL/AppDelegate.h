@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#ifndef kCFCoreFoundationVersionNumber_iPhoneOS_4_0
+#define kCFCoreFoundationVersionNumber_iPhoneOS_4_0 550.32
+#endif
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    
+    BOOL uiIsVisible;
+    
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

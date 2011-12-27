@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B39DB55C149DB9A100FAC9CD /* tape2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B39DB55B149DB9A100FAC9CD /* tape2.JPG */; };
+		B3D07C54149D85F2002D0148 /* PlayList.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D07C53149D85F2002D0148 /* PlayList.m */; };
 		B3EAA4FF149BB71600E215C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EAA4FE149BB71600E215C4 /* UIKit.framework */; };
 		B3EAA501149BB71600E215C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EAA500149BB71600E215C4 /* Foundation.framework */; };
 		B3EAA503149BB71600E215C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EAA502149BB71600E215C4 /* CoreGraphics.framework */; };
@@ -26,6 +28,13 @@
 		B3EAA52D149BB71600E215C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EAA500149BB71600E215C4 /* Foundation.framework */; };
 		B3EAA535149BB71600E215C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3EAA533149BB71600E215C4 /* InfoPlist.strings */; };
 		B3EAA538149BB71600E215C4 /* WBOR_FINALTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EAA537149BB71600E215C4 /* WBOR_FINALTests.m */; };
+		B3EAA542149BB72700E215C4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EAA541149BB72700E215C4 /* AudioToolbox.framework */; };
+		B3EAA54A149BB77100E215C4 /* StreamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EAA549149BB77100E215C4 /* StreamModel.m */; };
+		B3EAA550149BBD9F00E215C4 /* wbor.m3u in Resources */ = {isa = PBXBuildFile; fileRef = B3EAA54F149BBD9F00E215C4 /* wbor.m3u */; };
+		B3EAA552149BC4FE00E215C4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EAA551149BC4FE00E215C4 /* CFNetwork.framework */; };
+		B3EAA554149BC50F00E215C4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EAA553149BC50F00E215C4 /* MediaPlayer.framework */; };
+		B3ED0814149D424E00ACADF5 /* bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3ED0812149D424E00ACADF5 /* bear.jpg */; };
+		B3ED0815149D424E00ACADF5 /* tape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3ED0813149D424E00ACADF5 /* tape.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,32 +48,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B39DB55B149DB9A100FAC9CD /* tape2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tape2.JPG; sourceTree = "<group>"; };
+		B3D07C52149D85F2002D0148 /* PlayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayList.h; sourceTree = "<group>"; };
+		B3D07C53149D85F2002D0148 /* PlayList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayList.m; sourceTree = "<group>"; };
 		B3EAA4FA149BB71600E215C4 /* WBOR FINAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WBOR FINAL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EAA4FE149BB71600E215C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B3EAA500149BB71600E215C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3EAA502149BB71600E215C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B3EAA506149BB71600E215C4 /* WBOR FINAL-Info.plist */ = {isa = PBXFileReference; path = "WBOR FINAL-Info.plist"; sourceTree = "<group>"; };
+		B3EAA506149BB71600E215C4 /* WBOR FINAL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WBOR FINAL-Info.plist"; sourceTree = "<group>"; };
 		B3EAA508149BB71600E215C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3EAA50A149BB71600E215C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B3EAA50C149BB71600E215C4 /* WBOR FINAL-Prefix.pch */ = {isa = PBXFileReference; path = "WBOR FINAL-Prefix.pch"; sourceTree = "<group>"; };
-		B3EAA50D149BB71600E215C4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3EAA50C149BB71600E215C4 /* WBOR FINAL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WBOR FINAL-Prefix.pch"; sourceTree = "<group>"; };
+		B3EAA50D149BB71600E215C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B3EAA50E149BB71600E215C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B3EAA511149BB71600E215C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		B3EAA514149BB71600E215C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		B3EAA516149BB71600E215C4 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		B3EAA516149BB71600E215C4 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		B3EAA517149BB71600E215C4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		B3EAA519149BB71600E215C4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		B3EAA51B149BB71600E215C4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		B3EAA51D149BB71600E215C4 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		B3EAA51D149BB71600E215C4 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		B3EAA51E149BB71600E215C4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B3EAA520149BB71600E215C4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		B3EAA522149BB71600E215C4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		B3EAA529149BB71600E215C4 /* WBOR FINALTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WBOR FINALTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EAA52A149BB71600E215C4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B3EAA532149BB71600E215C4 /* WBOR FINALTests-Info.plist */ = {isa = PBXFileReference; path = "WBOR FINALTests-Info.plist"; sourceTree = "<group>"; };
+		B3EAA532149BB71600E215C4 /* WBOR FINALTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WBOR FINALTests-Info.plist"; sourceTree = "<group>"; };
 		B3EAA534149BB71600E215C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B3EAA536149BB71600E215C4 /* WBOR_FINALTests.h */ = {isa = PBXFileReference; path = WBOR_FINALTests.h; sourceTree = "<group>"; };
+		B3EAA536149BB71600E215C4 /* WBOR_FINALTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBOR_FINALTests.h; sourceTree = "<group>"; };
 		B3EAA537149BB71600E215C4 /* WBOR_FINALTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBOR_FINALTests.m; sourceTree = "<group>"; };
+		B3EAA541149BB72700E215C4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B3EAA548149BB77100E215C4 /* StreamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamModel.h; sourceTree = "<group>"; };
+		B3EAA549149BB77100E215C4 /* StreamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamModel.m; sourceTree = "<group>"; };
+		B3EAA54F149BBD9F00E215C4 /* wbor.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wbor.m3u; sourceTree = "<group>"; };
+		B3EAA551149BC4FE00E215C4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B3EAA553149BC50F00E215C4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B3ED0812149D424E00ACADF5 /* bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bear.jpg; sourceTree = "<group>"; };
+		B3ED0813149D424E00ACADF5 /* tape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tape.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +92,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3EAA554149BC50F00E215C4 /* MediaPlayer.framework in Frameworks */,
+				B3EAA552149BC4FE00E215C4 /* CFNetwork.framework in Frameworks */,
+				B3EAA542149BB72700E215C4 /* AudioToolbox.framework in Frameworks */,
 				B3EAA4FF149BB71600E215C4 /* UIKit.framework in Frameworks */,
 				B3EAA501149BB71600E215C4 /* Foundation.framework in Frameworks */,
 				B3EAA503149BB71600E215C4 /* CoreGraphics.framework in Frameworks */,
@@ -113,6 +136,9 @@
 		B3EAA4FD149BB71600E215C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B3EAA553149BC50F00E215C4 /* MediaPlayer.framework */,
+				B3EAA551149BC4FE00E215C4 /* CFNetwork.framework */,
+				B3EAA541149BB72700E215C4 /* AudioToolbox.framework */,
 				B3EAA4FE149BB71600E215C4 /* UIKit.framework */,
 				B3EAA500149BB71600E215C4 /* Foundation.framework */,
 				B3EAA502149BB71600E215C4 /* CoreGraphics.framework */,
@@ -130,10 +156,14 @@
 				B3EAA513149BB71600E215C4 /* MainStoryboard_iPad.storyboard */,
 				B3EAA516149BB71600E215C4 /* FirstViewController.h */,
 				B3EAA517149BB71600E215C4 /* FirstViewController.m */,
+				B3EAA548149BB77100E215C4 /* StreamModel.h */,
+				B3EAA549149BB77100E215C4 /* StreamModel.m */,
 				B3EAA519149BB71600E215C4 /* first.png */,
 				B3EAA51B149BB71600E215C4 /* first@2x.png */,
 				B3EAA51D149BB71600E215C4 /* SecondViewController.h */,
 				B3EAA51E149BB71600E215C4 /* SecondViewController.m */,
+				B3D07C52149D85F2002D0148 /* PlayList.h */,
+				B3D07C53149D85F2002D0148 /* PlayList.m */,
 				B3EAA520149BB71600E215C4 /* second.png */,
 				B3EAA522149BB71600E215C4 /* second@2x.png */,
 				B3EAA505149BB71600E215C4 /* Supporting Files */,
@@ -144,6 +174,10 @@
 		B3EAA505149BB71600E215C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B39DB55B149DB9A100FAC9CD /* tape2.JPG */,
+				B3ED0812149D424E00ACADF5 /* bear.jpg */,
+				B3ED0813149D424E00ACADF5 /* tape.jpg */,
+				B3EAA54F149BBD9F00E215C4 /* wbor.m3u */,
 				B3EAA506149BB71600E215C4 /* WBOR FINAL-Info.plist */,
 				B3EAA507149BB71600E215C4 /* InfoPlist.strings */,
 				B3EAA50A149BB71600E215C4 /* main.m */,
@@ -248,6 +282,10 @@
 				B3EAA51C149BB71600E215C4 /* first@2x.png in Resources */,
 				B3EAA521149BB71600E215C4 /* second.png in Resources */,
 				B3EAA523149BB71600E215C4 /* second@2x.png in Resources */,
+				B3EAA550149BBD9F00E215C4 /* wbor.m3u in Resources */,
+				B3ED0814149D424E00ACADF5 /* bear.jpg in Resources */,
+				B3ED0815149D424E00ACADF5 /* tape.jpg in Resources */,
+				B39DB55C149DB9A100FAC9CD /* tape2.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +324,8 @@
 				B3EAA50F149BB71600E215C4 /* AppDelegate.m in Sources */,
 				B3EAA518149BB71600E215C4 /* FirstViewController.m in Sources */,
 				B3EAA51F149BB71600E215C4 /* SecondViewController.m in Sources */,
+				B3EAA54A149BB77100E215C4 /* StreamModel.m in Sources */,
+				B3D07C54149D85F2002D0148 /* PlayList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +389,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Bowdoin College";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -364,6 +404,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A5C543E6-049F-4C87-B234-AC5BEE0FD27D";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -375,7 +416,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Bowdoin College";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -384,6 +425,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A5C543E6-049F-4C87-B234-AC5BEE0FD27D";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -465,6 +507,7 @@
 				B3EAA53D149BB71600E215C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3EAA53E149BB71600E215C4 /* Build configuration list for PBXNativeTarget "WBOR FINALTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +516,7 @@
 				B3EAA540149BB71600E215C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
