@@ -258,11 +258,6 @@ void MyAudioQueueIsRunningCallback(void *inUserData, AudioQueueRef inAQ, AudioQu
                                   fileType, &audioFileStream);
         //NSLog(@"audioSessionMaster returned: %@",audioSessionMaster);
     }
-        if(!audioSessionMaster){
-            NSLog(@"Stream is down!");
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Stream is down" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"ok", nil];
-            [alert show];
-        }
     
     UInt8 bytes[DefaultBufSize];
     CFIndex length;      
